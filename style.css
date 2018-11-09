@@ -1,0 +1,55 @@
+.container
+{
+	box-sizing: border-box;
+	border: 1px solid;
+	min-height: 90vh;
+}
+#top-div{
+	text-align: center;
+	margin-top: 20px;
+	border-bottom: 1px solid;
+
+}
+#top-div button,label,input{
+	margin-bottom: 30px;
+
+}
+#left-div{
+	margin-top: 80px;
+	margin-left: 150px;
+	float: left;
+
+}
+
+#right-div{
+	float: right;
+	margin-right: 150px;
+}
+#tab-1{
+	margin-top: 60px;
+	margin-right:50px;
+	align: right;
+	padding: 10px;
+}
+#grade-label{
+	float: left;
+	font-weight: bold;
+	padding-top: 80px;
+	padding-right: 0px;
+}
+label{
+   margin-right:80px;
+   position: relative;
+}
+table {
+    border-spacing: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+table, td, th {
+    border: 1px solid black;
+    width: 230px;
+}
+th{
+	text-align: center;
+}
